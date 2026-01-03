@@ -33,3 +33,8 @@ print("Dictionary:", student)
 is_pass = True
 print("\nBoolean Data Type:")
 print("Is Pass:", is_pass)
+
+a = 'welcome to the python world '
+b = 'welcome to the python world '
+print(id(a))
+print(id(b))

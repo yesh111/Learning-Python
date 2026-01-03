@@ -17,3 +17,23 @@ print(nums)
 print(len(nums))
 info = [ "Ram", 20, True, 5.5]
 print(info)
+
+#practice
+a = [5,6,8,3,7,9]
+b = [4,6,2,8,9,4]
+c = ['abc','xyz','pqr']
+mix = [1,'hello',3.5,True]
+mix = [b,c]
+print(mix[1])
+combined = b+c
+print(combined)
+s = a.sort()
+print(a)
+print(b.count(4))
+a.pop()
+print(a)
+del b[0:]
+print(a)
+print(min(a))
+
+print(sum(a))
